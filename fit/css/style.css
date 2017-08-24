@@ -1,0 +1,427 @@
+/* ==========================================================================
+   ========================================================================== */
+html, body {
+    overflow-x: hidden;
+}
+* { margin: 0; padding: 0; }
+
+.panel-body._body-footer {
+    background: #691b1d;
+}
+
+div#carousel-id-2 {
+    background: #6a1b1e;
+    color: #c7c7c7;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+}
+.container-fluid._icon {
+    text-align: center;
+    padding: 60px;
+}
+.container-fluid._icon img {
+    margin: 10px 20px;
+}
+
+
+/*=========header====================*/
+header {
+  background: #691b1d;
+}
+#a3 ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.all {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #691b1d;
+    min-height: 90px;
+}
+._btn-nav span {background: #691b1d;}
+._btn-nav {
+  position:absolute;
+  right: 1px;
+  top: 10px;
+  background: #fff568;
+}
+/*=========header====================*/
+
+
+
+/*=========panel====================*/
+._info-product ._panel {
+  margin-bottom: 1px;
+}
+._top-title h3 {
+  width: 100%;
+  padding-left: 20px;
+  color: yellow!important;
+  text-transform: uppercase;
+}
+._top-title hr {
+  width: 10%;
+  border: 1px solid;
+  color: yellow!important;
+  display: inline-block;
+}
+/*=========panel====================*/
+
+/*=========producer====================*/
+._producer {
+  color: #691b1d;
+}
+._producer hr {
+  width: 10%;
+  border: 1px solid;
+  display: inline-block;
+}
+
+/*=========comment====================*/
+._comment {
+  background: #691b1d;
+}
+._bg-color {
+  background: #691b1d;
+  height: 90px;
+}
+._carousel-inner .item img {
+  display: none;
+}
+
+#carousel-id-3 {
+  color: #6a1b1e;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 25%;
+  padding: 20px 30px;
+}
+._carousel-control {
+  background: transparent;
+  background-image: none!important;
+}
+
+
+
+
+._avatar footer img {
+  margin-top: 30px;
+  width: 15%;
+}
+._comment, ._comment-caption {
+  width: 100%;
+  height: 100%;
+}
+._footer {
+  width: 100%;
+  padding: 20px 0;
+  padding-bottom: 20px;
+  background: #691b1d;
+}
+._block-footer {
+  width: 100%;
+  margin-bottom: 0px;
+  background: #691b1d;
+  color: #d7d7d7;
+  border: none;
+}
+
+._form-group {
+  border: none;
+  margin: 10px 10px;
+}
+._form-group input {
+  border: 1px solid white;
+  width: 300px;
+  height: auto;
+  background: transparent;
+}
+
+
+
+._head-footer {
+  background: #691b1d;
+}
+._body {
+  background: #691b1d;
+}
+._panel-body-footer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+._panel-body-footer img {
+  width: 30%;
+  height: 30%;
+  padding-right: 10px;
+}
+
+
+._bottom-footer {
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  background: #5b1719;
+  color: #b7aaaa;
+}
+
+
+/* ==========================================================================
+   ========================================================================== */
+._text-capital { text-transform: capitalize; }
+._text-lower { text-transform: lowercase; }
+._text-upper { text-transform: uppercase; }
+
+.panel-heading._text-upper._head-footer.text-center {
+    background: #5b1719;
+    color: #cecece;
+    border: none;
+    margin: 0 20px;
+}
+body {
+    font-size: 15px;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    margin: 0
+}
+a {
+  color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+#container .container {
+    max-width: 960px;
+    height: auto;
+}
+body,h1,h2,h3,h4,p,a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 1239px) {
+  #a3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #a3 ul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #a1 {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  #a2 {
+    margin-right: 0px;
+    height: 70px;
+    margin-left: auto;
+  }
+  ._banner {
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 5px;
+    background: #6c1c1d;
+  }
+  ._product {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  ._info-product {
+    width: 60%;
+    font-size: 16px;
+  }
+  ._carousel {
+    width: 100%;
+  }
+  ._footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  #a3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #a3 ul {
+    display: inline-flex;
+  }
+  #a3 li a {
+    font-size: 16px;
+  }
+  #a1 {
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  #a1 img {
+    max-width: 70%;
+    margin: 0px 5px;
+  }
+  #a2 img {
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    width: 30%;
+  }
+  #a2 {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+  ._footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #a3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #a3 ul {
+    display: inline-flex;
+  }
+  #a3 li a {
+    font-size: 14px!important;
+  }
+  #a1 {
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  #a1 img {
+    max-width: 50%;
+  }
+  #a2 img {
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    width: 30%;
+  }
+  #a2 {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+  #carousel-id {
+    background: #6a1b1e;
+    color: #c7c7c7;
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  ._btn-nav {
+    position:absolute;
+    right: 1px;
+    top: 10px;
+  }
+  .all {
+    display: block;
+  }
+  .all a {
+    margin: 5px 5px;
+  }
+  #a1 img, #a2 img {
+    max-width: 65%;
+  }
+  ._slide {
+    background: #6a1b1e;
+    color: #c7c7c7;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (max-width: 479px) and (min-width: 100px) {
+  ._btn-nav {
+    position:absolute;
+    right: 1px;
+    top: 10px;
+  }
+  .all {
+    display: block;
+  }
+  .all a {
+    margin: 5px 5px;
+  }
+  #a1 img, #a2 img {
+    max-width: 65%;
+  }
+  div#carousel-id-2 {
+    background: #6a1b1e;
+    color: #c7c7c7;
+    width: 100%;
+  }
+  div#carousel-id-3 {
+    color: #6a1b1e;
+    width: 100%;
+  }
+  #carousel-id-3 footer img {
+    width: 30%;
+    margin-right: 0;
+  }
+  ._panel-body-footer {
+    margin: 0 10px;
+  }
+  #footer2 {
+    border-top: 1px solid white;
+  }
+  ._form-footer {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
