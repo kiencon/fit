@@ -56,6 +56,16 @@ html, body {
 }
 ._main-menu {
   width: 70%;
+  background: #333333;
+  /* color: white; */
+}
+
+div#main-menu a {
+    color: white;
+}
+
+div#main-menu li {
+    border-bottom: 1px solid #8d8888;
 }
 ._main {
   width: 100%;
@@ -247,7 +257,7 @@ body,h1,h2,h3,h4,p,a {
     width: 100%!important;
   }
   ._main-menu {
-    background: grey;
+    background: #333333;
   }
   .bao {
     display: inline-flex;
