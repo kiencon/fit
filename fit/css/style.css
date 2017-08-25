@@ -3,6 +3,9 @@
 html, body {
     overflow-x: hidden;
 }
+.bao {
+  display: inline-flex;
+}
 * { margin: 0; padding: 0; }
 
 .panel-body._body-footer {
@@ -423,5 +426,17 @@ body,h1,h2,h3,h4,p,a {
   ._form-footer {
     margin-top: 20px;
     margin-left: 20px;
+  }
+  ._w150 {
+    width: 150%!important;
+  }
+  ._w100 {
+    width: 100%!important;
+  }
+  ._w50 {
+    width: 50%!important;
+  }
+  ._main-menu {
+    background: grey;
   }
 }

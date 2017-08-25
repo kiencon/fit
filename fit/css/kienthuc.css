@@ -1,0 +1,263 @@
+/* ==========================================================================
+   ========================================================================== */
+html, body {
+    overflow-x: hidden;
+}
+.demo p:first-of-type {
+  display: none;
+}
+* { margin: 0; padding: 0; }
+._side-bar {
+  padding: 20px 40px;
+  margin: 0px 0px 40px 20px;
+  background: #fff;
+}
+._block-body {
+  background: #fff;
+  padding-top: 20px;
+}
+._block-info {
+  background: #fff;
+}
+._footer, ._footer a {
+  background: #510003;
+  color: #fff;
+}
+._footer ul li {
+  display: inline;
+}
+._footer ul {
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+._block-info {
+  border-bottom: 1px solid #cbc9c9;
+  border-top: 1px solid #cbc9c9;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 1px;
+}
+._body ._block-info:first-of-type {
+  border-bottom: 1px solid #cbc9c9;
+  border-top: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 1px;
+}
+._body ._block-info:last-of-type {
+  border-top: 1px solid #cbc9c9;
+  border-bottom: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 1px;
+}
+._main-menu {
+  width: 70%;
+}
+._main {
+  width: 100%;
+}
+
+._footer ul li {
+  border-right: 1px solid;
+}
+
+._footer ul li:first-of-type {
+  border-left: 1px solid;
+}
+._footer {
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.container-fluid._footer li {
+    padding: 5px 10px;
+}
+ul.nav.navbar-nav._navbar-nav li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+nav.navbar.navbar-default._navbar {
+  background: #6f0107;
+  border: none;
+  display: flex;
+}
+._menu-top {
+  background: #fff;
+  padding: 10px 20px;
+  position: relative;
+  top: -54px;
+}
+
+._logo.container-fluid.text-center img {
+  display: inline;
+  padding-bottom: 50px;
+}
+._text-capital { text-transform: capitalize; }
+._text-lower { text-transform: lowercase; }
+._text-upper { text-transform: uppercase; }
+body {
+  font-size: 15px;
+  background: #741617;
+  font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+form {
+    margin: 0
+}
+a {
+  color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+#container .container {
+    max-width: 960px;
+    height: auto;
+}
+body,h1,h2,h3,h4,p,a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ==========================================================================
+   Responsive CSS Landscape 
+   ========================================================================== */
+@media only screen and (min-width: 1239px) {
+  nav.navbar.navbar-default._navbar {
+   position: relative;
+   top: 200px;
+   margin-bottom: 100px;
+  }
+  ._logo {
+    position: relative;
+    top: -100px;
+  }
+  ._navbar-nav li {
+    border-right: 1px solid white;
+  }
+  ._navbar-nav li:first-of-type {
+    border-left: 1px solid white;
+  }
+}
+
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  ._block-body {
+    left: 20px;
+  }
+  ._menu-top {
+    position: relative;
+    top: -20px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  ._side-bar {
+    width: 100%!important;
+    margin: 0;
+  }
+  ._bar {
+    padding: 0;
+    margin: 0;
+  }
+  ._bar ._side-bar:first-of-type {
+    margin-bottom: 20px;
+  }
+  ._side-bar ._bar:last-of-type {
+    margin-top: 40px;
+  }
+  ._body ._block-info:last-of-type {
+    border-top: 1px solid #cbc9c9;
+    border-bottom: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 1px;
+  }
+  ._menu-top {
+    position: relative;
+    top: -10px;
+  }
+  ._body {
+    padding: 10px 10px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}*/
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  ._logo img {
+    display: inline;
+  }
+  ._side-bar ul {
+    margin-left: 20px;
+  }
+  ._block-body {
+    padding: 20px 20px;
+    margin: 20px 20px;
+    margin-bottom: 0px;
+  }
+  ._bar {
+    margin-right: 20px;
+    padding: 0px;
+  }
+  ._footer ul li:first-of-type {
+    border: none;
+  }
+  ._footer ul li {
+    display: block;
+  }
+  ._w150 {
+    width: 170%!important;
+    display: inline-flex;
+    position: relative;
+    top: -10px;
+  }
+  ._w100 {
+    width: 100%!important;
+  }
+  ._main-menu {
+    background: grey;
+  }
+  .bao {
+    display: inline-flex;
+    margin: 0;
+  }
+  #_collapse {
+    display: none;
+  }
+  ._menu-top {
+    position: relative;
+    top: 0;
+  }
+}
