@@ -126,6 +126,7 @@ button.navbar-toggle._navbar span {
 }
 header, #_wrap-banner, #_wrap-product {
   background: #691b1d;
+  margin-top: -1px;
 }
 #_wrap-product h3 {
   margin: 60px 0 20px 0;
@@ -317,6 +318,11 @@ body,h1,h2,h3,h4,p,a {
   ul.nav.navbar-nav li a {
     font-size: 18px;
   }
+
+ul.nav.navbar-nav li a:hover {
+    background: transparent;
+    color: #e4b57a;
+}
 }
 
  /* ==========================================================================
