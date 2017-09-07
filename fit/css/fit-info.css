@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Bui Viet Son
+   ========================================================================== */
+.w170 {
+  width: 170%;
+}
+.main-menu-hide {
+  background: #333;
+  padding-top: 10px;
+  width: 70%;
+}
+.main-menu-hide ul li {
+    border-bottom: 1px solid gray;
+}
+.main-menu-hide ul li a {
+    color: #fff;
+}
+#container {
+  width: 100%;
+}
+body {
+  display: flex;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+body {
+  font-size: 18px;
+  background: #fdfdfd;
+  font-family: "Roboto", Tahoma, Arial, Sans-Serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.side-footer ul {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+footer#footer ul li {
+    margin: 10px;
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+
+footer#footer ul li:last-of-type {
+    border: none;
+}
+
+footer#footer {
+    background: #872123;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: -1px;
+}
+
+footer#footer ul li a:hover {
+    color: #fff;
+}
+
+#footer hr {
+    border-top: 1px solid gray;
+    width: 90%;
+    padding: 0;
+    margin: 10px auto;
+}
+
+footer#footer ul li a {
+    color: yellow;
+}
+
+section#main-menu {
+    background: #872123;
+}
+
+.search-bar, .post-bar {
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.post-bar ul {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.post-bar ul li {
+    margin-bottom: 10px;
+}
+
+.search-bar h3, .post-bar h3 {
+    margin-bottom: 10px;
+}
+
+.site-bar {
+    color: #691b1d;
+    margin: 0 20px;
+    background: #691b1d;
+}
+
+div#main {
+    background: #691b1d;
+    padding-bottom: 60px;
+}
+
+footer.entry-footer {
+    height: 3px;
+    border-top: 1px solid #c7c6c6;
+    border-bottom: 1px solid #c7c6c6;
+    margin: 60px 0;
+}
+
+.entry-meta {
+    margin-bottom: 20px;
+    color: #b0b0b0;
+}
+
+.entry-meta i {
+    color: #000;
+    margin-right: 5px;
+}
+
+i.fa.fa-address-book-o {
+    margin-left: 20px;
+}
+
+article.article {
+    background: #fff;
+}
+
+.col-md-8.site-main {
+    background: #fff;
+    padding: 20px;
+}
+
+section#wrap-content {
+    padding-top: 50px;
+    margin: 0px 70px;
+    margin-top: -1px;
+}
+
+.main-menu.container {
+    width: 100%!important;
+    min-height: 60px;
+    background: #872123;
+}
+
+.main-menu.container .sf-menu {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.nav.navbar-nav.sf-menu li a {
+    border-left: 1px solid #8f7d7d;
+    padding: 20px 10px;
+    color: #fff;
+}
+
+ul.nav.navbar-nav.sf-menu li:last-of-type a {
+    border-right: 1px solid #8f7d7d;
+}
+
+ul.nav.navbar-nav.sf-menu li a:hover {
+    background: transparent;
+}
+
+ul.nav.navbar-nav.sf-menu li a:hover {
+    background: #691b1d;
+    color: yellow;
+}
+
+section.wrap-header {
+    text-align: center;
+    padding: 30px;
+}
+header {
+    background: #691b1d;
+}
+
+header.entry-header {
+    background: #fff;
+}
+
+header.entry-header h2 {
+    margin: 20px 0px;
+}
+form {
+  margin: 0;
+}
+a {
+  color: #333;
+  cursor: pointer;
+}
+a, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #0076a1;
+}
+input, input:focus {
+  outline: none
+}
+#container .container {
+  height: auto;
+}
+#container .container-full {
+max-width: 1300px;
+height: auto;
+padding: 0px 15px;
+margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,a {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.top-header {
+  display: none;
+  background: #872123;
+  height: 50px;
+  position: relative;
+}
+
+.top-header button {
+    position: absolute;
+    margin-top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #691b1d;
+    border-radius: 2px;
+    border: 1px solid #872123;
+}
+
+.top-header button span {
+    display: block;
+    background: yellow;
+    width: 25px;
+    height: 2px;
+    padding: 1px;
+    margin: 6px;
+}
+
+/* ==========================================================================
+   Responsive CSS Desktop
+   ========================================================================== */
+@media only screen and (min-width: 1300px) {
+  #container .container, #container .container-full {
+    max-width: 1300px;
+  }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Desktop
+   ========================================================================== */
+@media only screen and (min-width: 1239px) and (max-width: 1299px) {
+    #container .container-full {
+      width: 100%;
+    }
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    #container .container-full {
+        width: 100%;
+    }
+    section#wrap-content .wrap-content {
+        padding-top: 50px;
+        margin: -1px -25px;
+    }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #container .container-full {
+        width: 100%;
+    }
+    .top-header {
+      display: block;
+    }
+    .main-menu {
+      display: none!important;
+    }
+    section#wrap-content {
+      display: flex;
+    }
+    .wrap-site-bar {
+      width: 100%!important;
+      padding: 0!important;
+      margin: 0!important;
+    }
+    .site-bar {
+      padding : 0;
+      margin: 0;
+    }
+    .search-bar {
+      margin-top: -1px;
+      width: 100%;
+    }
+    .post-bar {
+      margin: 0;
+    }
+    #footer ul li {
+      font-size: 16px;
+    }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .top-header {
+    display: block;
+  }
+  .main-menu {
+    display: none!important;
+  }
+  .site-main {
+      padding : 0;
+      margin: 0;
+    }
+    section#wrap-content {
+      display: flex;
+    }
+    .wrap-site-bar {
+      width: 100%!important;
+      padding: 0!important;
+      margin: 0!important;
+    }
+    .site-bar {
+      padding : 0;
+      margin: 0;
+    }
+    .search-bar {
+      margin-top: -1px;
+      width: 100%;
+    }
+    .post-bar {
+      margin: 0;
+    }
+    #footer ul li {
+      font-size: 16px;
+    }
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .top-header {
+    display: block;
+  }
+  .main-menu {
+    display: none!important;
+  }
+  .site-main {
+      padding : 0;
+      margin: 0;
+    }
+    section#wrap-content {
+      display: flex;
+      margin: -1px 15px;
+    }
+    .wrap-site-bar {
+      width: 100%!important;
+      padding: 0!important;
+      margin: 0!important;
+    }
+    .site-bar {
+      padding : 0;
+      margin: 0;
+    }
+    #footer ul li {
+      font-size: 17px;
+    }
+}

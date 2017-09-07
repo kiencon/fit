@@ -46,4 +46,13 @@ $('#customers-comment').owlCarousel( {
 			}
 		}
 	});
+	$(function () {
+		$("#btn").click(function(event) {
+			alert("dadong");
+			$("body").toggleClass('w170');
+			$("#main-menu-hide").toggleClass('hide');
+		});
+	});
+	
 });
+
